@@ -1,0 +1,60 @@
+.captcha {
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    border: 1px solid blue;
+    margin-top: 80px;
+}
+
+.captcha .captcha-header {
+    border: 2px solid blue;
+    padding: 0px 23px 8px 23px;
+}
+
+.captcha .captcha-body {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    height: auto;
+}
+
+.captcha .captcha-body .captcha-suscpect {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+}
+
+.captcha .captcha-body .captcha-suscpect img {
+    max-width: 100px;
+    max-height: 100px;
+    padding: 6px;
+}
+
+.captcha-suscpect.active {
+    border: 2px solid blue;
+}
+
+.captcha-row {
+    width: 100%;
+    columns: 3;
+    flex-direction: row;
+    justify-items: center;
+    align-content: center;
+    justify-content: center;
+    align-content: center;
+}
+
+.action {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+}
+
+.action input {
+    width: 50%;
+    height: 40px;
+}
